@@ -2,6 +2,13 @@
   background: #FFEAAA;
 }
 
+.fs1 {
+  font-size: 2em;
+  margin-left: 90%;
+  margin-top: 6.5%;
+  
+}
+
 /* REVIEW: Float the main header to the left, to make room for the hamburger menu. */
 .heading-group-h1 {
   float: left;
