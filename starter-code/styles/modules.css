@@ -2,12 +2,29 @@
   background: #FFEAAA;
 }
 
-.fs1 {
+@media screen and (max-width:800px){
+  .fs1 {
   font-size: 2em;
   margin-left: 90%;
   margin-top: 6.5%;
-  
+  }
+  .main-nav ul {
+    display: none;
+    padding: 0;
+    list-style: none;
+    clear: both;
+  }
 }
+
+@media screen and (min-width:800px) {
+  li {
+    display: inline;
+  }
+    .fs1 {
+      display: none;
+    }
+}
+
 
 /* REVIEW: Float the main header to the left, to make room for the hamburger menu. */
 .heading-group-h1 {
@@ -22,7 +39,7 @@
 }
 
 .main-nav ul {
-  display: none;
+  /*display: none;*/
   padding: 0;
   list-style: none;
   clear: both;

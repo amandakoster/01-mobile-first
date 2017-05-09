@@ -32,9 +32,9 @@ a, a:link, a:active {
   color: #777;
 }
 
-a:hover, a:focus {
+/*a:hover, a:focus {
   color: #29506D;
-}
+}*/
 
 a:visited {
 }
