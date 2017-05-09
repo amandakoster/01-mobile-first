@@ -1,81 +1,86 @@
 .site-header {
-  background: #FFEAAA;
+	background: #FFEAAA;
 }
 
-@media screen and (max-width:800px){
-  .fs1 {
-  font-size: 2em;
-  margin-left: 90%;
-  margin-top: 6.5%;
-  }
-  .main-nav ul {
-    display: none;
-    padding: 0;
-    list-style: none;
-    clear: both;
-  }
+@media screen and (max-width:800px) {
+	.fs1 {
+		font-size: 2em;
+		margin-left: 90%;
+		margin-top: .5em;
+	}
+	.main-nav ul {
+		display: none;
+		padding: 0;
+		list-style: none;
+		clear: both;
+	}
 }
 
 @media screen and (min-width:800px) {
-  li {
-    display: inline;
-  }
-    .fs1 {
-      display: none;
-    }
+	li {
+		display: inline;
+	}
+	.fs1 {
+		display: none;
+	}
 }
 
 
 /* REVIEW: Float the main header to the left, to make room for the hamburger menu. */
+
 .heading-group-h1 {
-  float: left;
-  padding: 0 0 .2em 1em;
+	float: left;
+	padding: 0 0 .2em 1em;
 }
+
 
 /* TODO: Add styles for the icon-menu class. It should be bigger, and off to the right. */
 
 .main-nav {
-  padding: 0.1em;
+	padding: 0.1em;
 }
 
 .main-nav ul {
-  /*display: none;*/
-  padding: 0;
-  list-style: none;
-  clear: both;
+	/*display: none;*/
+	padding: 0;
+	list-style: none;
+	clear: both;
 }
 
 .main-nav:hover ul {
-  display: block;
+	display: block;
 }
 
 .main-nav li {
-  margin-right: .4em;
-  font-size: 1.5em;
-  padding: .5em .2em;
-  border-bottom: 1px solid #ccc;
+	margin-right: .4em;
+	font-size: 1.5em;
+	padding: .5em .2em;
+	border-bottom: 1px solid #ccc;
 }
 
 #filters {
-  padding: 0;
-  list-style: none;
+	padding: 0;
+	list-style: none;
 }
 
 .template {
-  display: none;
+	display: none;
 }
 
 .byline {
-  color: #777;
+	color: #777;
 }
 
 .byline a {
-  font-weight: bold;
-  text-decoration: none;
+	font-weight: bold;
+	text-decoration: none;
 }
+
 
 /* TODO: Now add styles for how things should look on a larger screen:
          - Hide the hamburger.
          - Main should be all on one row, with padding spaced better for a larger screen.
          - Just, ya know, try to make it look good! */
+
+
 /* @media only screen... */
